@@ -313,26 +313,24 @@ function Index() {
           I'm open to internships, learnerships, junior roles and collaborations.
           Reach out through any of the channels below.
         </p>
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
-          <a href="mailto:xiluva.mhlanga@gmail.com" className="glow-card flex items-center gap-3 p-5">
+        <div className="mt-8 grid max-w-2xl gap-4 sm:grid-cols-2">
+          <a href="mailto:carolxiluva500@gmail.com" className="glow-card flex items-center gap-3 p-5">
             <Mail className="h-5 w-5 shrink-0 text-primary" />
             <div>
               <p className="text-sm font-semibold">Email</p>
-              <p className="text-xs text-muted-foreground">xiluva.mhlanga@gmail.com</p>
+              <p className="text-xs text-muted-foreground">carolxiluva500@gmail.com</p>
             </div>
           </a>
-          <a href="https://github.com/xiluvamhlanga" target="_blank" rel="noreferrer" className="glow-card flex items-center gap-3 p-5">
-            <Github className="h-5 w-5 shrink-0 text-primary" />
-            <div>
-              <p className="text-sm font-semibold">GitHub</p>
-              <p className="text-xs text-muted-foreground">github.com/xiluvamhlanga</p>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/xiluva-mhlanga" target="_blank" rel="noreferrer" className="glow-card flex items-center gap-3 p-5">
+          <a
+            href="https://www.linkedin.com/search/results/people/?keywords=Xiluva%20Carol%20Mhlanga"
+            target="_blank"
+            rel="noreferrer"
+            className="glow-card flex items-center gap-3 p-5"
+          >
             <Linkedin className="h-5 w-5 shrink-0 text-primary" />
             <div>
               <p className="text-sm font-semibold">LinkedIn</p>
-              <p className="text-xs text-muted-foreground">linkedin.com/in/xiluva-mhlanga</p>
+              <p className="text-xs text-muted-foreground">Xiluva Carol</p>
             </div>
           </a>
         </div>
