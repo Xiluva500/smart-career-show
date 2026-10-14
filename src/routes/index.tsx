@@ -284,7 +284,7 @@ function Index() {
       <section id="education" className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading kicker="Education" title="Learning journey" />
         <div className="grid gap-10 md:grid-cols-2">
-          <div className="glow-card p-6">
+          <div className="glow-card self-start p-6">
             <GraduationCap className="h-6 w-6 text-primary" />
             <h3 className="mt-4 font-display text-lg font-semibold">National Senior Certificate (Matric)</h3>
             <p className="mt-1 text-sm font-medium text-primary">Mapetla High School</p>
