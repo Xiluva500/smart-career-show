@@ -279,15 +279,26 @@ function Index() {
       <section id="education" className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading kicker="Education" title="Learning journey" />
         <div className="grid gap-10 md:grid-cols-2">
-          <div className="glow-card p-6">
-            <GraduationCap className="h-6 w-6 text-primary" />
-            <h3 className="mt-4 font-display text-lg font-semibold">National Senior Certificate (Matric)</h3>
-            <p className="mt-1 text-sm font-medium text-primary">Mapetla High School</p>
-            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Completed matric with a strong interest in mathematics and
-              technology, laying the foundation for a career in software
-              development and AI.
-            </p>
+          <div className="flex flex-col gap-6 self-start">
+            <div className="glow-card p-6">
+              <GraduationCap className="h-6 w-6 text-primary" />
+              <h3 className="mt-4 font-display text-lg font-semibold">National Senior Certificate (Matric)</h3>
+              <p className="mt-1 text-sm font-medium text-primary">Mapetla High School</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Completed matric with a strong interest in mathematics and
+                technology, laying the foundation for a career in software
+                development and AI.
+              </p>
+            </div>
+            <div className="glow-card p-6">
+              <Award className="h-6 w-6 text-primary" />
+              <h3 className="mt-4 font-display text-lg font-semibold">Certificate of Construction Constructing</h3>
+              <p className="mt-1 text-sm font-medium text-primary">NQF Level 2</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Vocational construction qualification covering practical
+                building, plastering and site-safety skills.
+              </p>
+            </div>
           </div>
           <div>
             <h3 className="mb-4 flex items-center gap-2 font-display text-lg font-semibold">
@@ -313,7 +324,7 @@ function Index() {
           I'm open to internships, learnerships, junior roles and collaborations.
           Reach out through any of the channels below.
         </p>
-        <div className="mt-8 grid max-w-2xl gap-4 sm:grid-cols-2">
+        <div className="mt-8 grid gap-4 sm:grid-cols-3">
           <a href="mailto:carolxiluva500@gmail.com" className="glow-card flex items-center gap-3 p-5">
             <Mail className="h-5 w-5 shrink-0 text-primary" />
             <div>
@@ -321,8 +332,15 @@ function Index() {
               <p className="text-xs text-muted-foreground">carolxiluva500@gmail.com</p>
             </div>
           </a>
+          <a href="tel:+27761482449" className="glow-card flex items-center gap-3 p-5">
+            <Phone className="h-5 w-5 shrink-0 text-primary" />
+            <div>
+              <p className="text-sm font-semibold">Phone</p>
+              <p className="text-xs text-muted-foreground">076 148 2449</p>
+            </div>
+          </a>
           <a
-            href="https://www.linkedin.com/search/results/people/?keywords=Xiluva%20Carol%20Mhlanga"
+            href="https://www.linkedin.com/in/xiluva-carol-8b72b7386"
             target="_blank"
             rel="noreferrer"
             className="glow-card flex items-center gap-3 p-5"
