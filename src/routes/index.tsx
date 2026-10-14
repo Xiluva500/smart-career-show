@@ -95,11 +95,6 @@ const certifications = [
     issuer: "Coursera",
     detail: "Understanding emerging AI trends and how to apply them in a fast-changing digital workplace.",
   },
-  {
-    name: "Certificate of Construction Constructing",
-    issuer: "NQF Level 2",
-    detail: "Vocational construction qualification covering practical building, plastering and site-safety skills.",
-  },
 ];
 
 function Nav() {
@@ -284,15 +279,26 @@ function Index() {
       <section id="education" className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading kicker="Education" title="Learning journey" />
         <div className="grid gap-10 md:grid-cols-2">
-          <div className="glow-card self-start p-6">
-            <GraduationCap className="h-6 w-6 text-primary" />
-            <h3 className="mt-4 font-display text-lg font-semibold">National Senior Certificate (Matric)</h3>
-            <p className="mt-1 text-sm font-medium text-primary">Mapetla High School</p>
-            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Completed matric with a strong interest in mathematics and
-              technology, laying the foundation for a career in software
-              development and AI.
-            </p>
+          <div className="flex flex-col gap-6 self-start">
+            <div className="glow-card p-6">
+              <GraduationCap className="h-6 w-6 text-primary" />
+              <h3 className="mt-4 font-display text-lg font-semibold">National Senior Certificate (Matric)</h3>
+              <p className="mt-1 text-sm font-medium text-primary">Mapetla High School</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Completed matric with a strong interest in mathematics and
+                technology, laying the foundation for a career in software
+                development and AI.
+              </p>
+            </div>
+            <div className="glow-card p-6">
+              <Award className="h-6 w-6 text-primary" />
+              <h3 className="mt-4 font-display text-lg font-semibold">Certificate of Construction Constructing</h3>
+              <p className="mt-1 text-sm font-medium text-primary">NQF Level 2</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Vocational construction qualification covering practical
+                building, plastering and site-safety skills.
+              </p>
+            </div>
           </div>
           <div>
             <h3 className="mb-4 flex items-center gap-2 font-display text-lg font-semibold">
