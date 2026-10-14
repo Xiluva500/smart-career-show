@@ -95,6 +95,11 @@ const certifications = [
     issuer: "Coursera",
     detail: "Understanding emerging AI trends and how to apply them in a fast-changing digital workplace.",
   },
+  {
+    name: "Certificate of Construction Constructing",
+    issuer: "NQF Level 2",
+    detail: "Vocational construction qualification covering practical building, plastering and site-safety skills.",
+  },
 ];
 
 function Nav() {
@@ -313,7 +318,7 @@ function Index() {
           I'm open to internships, learnerships, junior roles and collaborations.
           Reach out through any of the channels below.
         </p>
-        <div className="mt-8 grid max-w-2xl gap-4 sm:grid-cols-2">
+        <div className="mt-8 grid gap-4 sm:grid-cols-3">
           <a href="mailto:carolxiluva500@gmail.com" className="glow-card flex items-center gap-3 p-5">
             <Mail className="h-5 w-5 shrink-0 text-primary" />
             <div>
@@ -321,8 +326,15 @@ function Index() {
               <p className="text-xs text-muted-foreground">carolxiluva500@gmail.com</p>
             </div>
           </a>
+          <a href="tel:+27761482449" className="glow-card flex items-center gap-3 p-5">
+            <Phone className="h-5 w-5 shrink-0 text-primary" />
+            <div>
+              <p className="text-sm font-semibold">Phone</p>
+              <p className="text-xs text-muted-foreground">076 148 2449</p>
+            </div>
+          </a>
           <a
-            href="https://www.linkedin.com/search/results/people/?keywords=Xiluva%20Carol%20Mhlanga"
+            href="https://www.linkedin.com/in/xiluva-carol-8b72b7386"
             target="_blank"
             rel="noreferrer"
             className="glow-card flex items-center gap-3 p-5"
