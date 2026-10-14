@@ -1,13 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
   Mail,
-  Github,
   Linkedin,
   Download,
   MapPin,
   GraduationCap,
   Award,
-  Briefcase,
   Code2,
   Sparkles,
   FolderKanban,
@@ -44,7 +42,7 @@ const technicalSkills = [
   "React",
   "TypeScript",
   "Python",
-  "Git & GitHub",
+  "Git & Version Control",
   "AI-Assisted Development",
   "Responsive Design",
   "Prompt Engineering",
@@ -304,24 +302,6 @@ function Index() {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* EXPERIENCE */}
-      <section id="experience" className="border-t border-border/60 bg-card/40">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <SectionHeading kicker="Experience" title="Growing through building" />
-          <div className="glow-card max-w-3xl p-6">
-            <Briefcase className="h-6 w-6 text-primary" />
-            <h3 className="mt-4 font-display text-lg font-semibold">Independent Projects & Continuous Learning</h3>
-            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              While at the start of my professional journey, I treat every
-              project as real work: planning features, writing clean code,
-              testing on multiple devices and iterating with feedback. I'm
-              actively seeking internships, learnerships and junior
-              opportunities in software development and AI.
-            </p>
           </div>
         </div>
       </section>
